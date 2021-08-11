@@ -1,5 +1,9 @@
+* {
+    box-sizing: border-box;
+  }
+
 .section {
-  width: 75%;
+  
   height: 100%;
     position: relative;
     padding: 10px, 0px;
@@ -63,7 +67,7 @@
   }
 
 .test{
-    height:400px;
+    max-height:100%;
 }
 
 .card1 {
@@ -110,19 +114,19 @@
 }
 
 .profile-pic {
-    position: absolute;
+    position: relative;
     width: 120px;
     height: 120px;
     border-radius: 100%;
-    left: 65px;
+    left: 60px;
     margin-top: 5px
 }
 
 .profile-name {
-    position: absolute;
+    position: relative;
     font-size: 22px;
     margin-top: 40px;
-    left: 210px;
+    left: 70px;
     color: #616161
 }
 
