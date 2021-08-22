@@ -7,9 +7,7 @@
   height: 100%;
     position: relative;
     padding: 10px, 0px;
-
     margin:auto;
-    background-color: antiquewhite;
 }
 
 .logo {
@@ -130,7 +128,9 @@
     color: #616161
 }
 
-
+.newsbtn{
+  width:40px !important;
+}
 
 
 
