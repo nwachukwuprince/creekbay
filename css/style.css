@@ -71,7 +71,7 @@
 .card1 {
     position: relative;
     border: solid 1px #212121;
-    padding: 45px 50px 25px 60px;
+    padding: 40px 50px 25px 60px;
     margin-top: 40px;
     background-color: #212121;
     border-radius: 10px;
@@ -85,10 +85,10 @@
 
 .quote-img {
     position: absolute;
-    top: 10px;
-    left: 25px;
-    width: 30px;
-    height: 30px
+    top: 20px;
+    left: 20px;
+    width: 35px !important;
+    height: 35px;
 }
 
 .nice-img {
@@ -112,20 +112,23 @@
 }
 
 .profile-pic {
-    position: relative;
+    position: absolute;
     width: 120px;
     height: 120px;
     border-radius: 100%;
-    left: 60px;
-    margin-top: 5px
+    left: -1000px;
+    margin-top: 5px;
+    visibility: hidden;
+    display: none;
 }
 
 .profile-name {
     position: relative;
-    font-size: 22px;
+    font-size: 1.2em;
     margin-top: 40px;
-    left: 70px;
-    color: #616161
+    left: 45px;
+    color: #858484;
+    font-weight: 900;
 }
 
 .newsbtn{
