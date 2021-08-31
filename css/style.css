@@ -112,10 +112,10 @@
 }
 
 .profile-pic {
-    /* background-image: url(//img/img_avatar2.png); */
+    
     position: relative;
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 120px;
     border-radius: 100%;
     left: 30px;
     margin-top: 5px;
